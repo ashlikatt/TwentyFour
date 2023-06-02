@@ -309,4 +309,56 @@
         (item `{Count:1b,id:"minecraft:netherite_hoe",tag:{AttributeModifiers:[{Amount:999.0d,AttributeName:"minecraft:generic.attack_speed",Name:"",Operation:0,Slot:"mainhand",UUID:[I;-1876562222,-2006168816,-1277668597,-1119340231]}],Damage:0,HideFlags:127,Unbreakable:1b,display:{Lore:['{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Any danger in this world is now gone. This is uneffective with what remains."}],"text":""}'],Name:'{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF0000","text":"Handgun"}],"text":""}'}}}`)))
     (set-var "SetDictValue" ((var "itemMap")(text "labPass")
         (item `{Count:1b,id:"minecraft:netherite_ingot",tag:{display:{Lore:['{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Lab elevator and door access."}],"text":""}'],Name:'{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFFFAA","text":"Lab Pass"}],"text":""}'}}}`)))
+
+
+
+    (set-var "CreateList" ((var "groundItems")))
+
+    (set-var "CreateList" ((var "groundItem")
+        (text "flashlight") ; Item ID
+        (loc 124.5 153.26 178.5 0 0) ; Location
+        (text "§9[§bF§9] §fPick Up.") ; Pickup Message
+        (par "Firework" ((motion-x 0.2)(motion-y 0.2)(motion-z 0.2)(variation-motion 100))) ; Optional particle override
+    )) (set-var "AppendList" ((var "groundItems")(var "groundItem")))
+    (set-var "CreateList" ((var "groundItem")
+        (text "rook") ; Item ID
+        (loc 125.5 165.2 124.5 0 0) ; Location
+        (text "§9[§bF§9] §fPick Up.") ; Pickup Message
+    )) (set-var "AppendList" ((var "groundItems")(var "groundItem")))
+    (set-var "CreateList" ((var "groundItem")
+        (text "card1") ; Item ID
+        (loc 109.5 183.2 118.5 0 0) ; Location
+        (text "§9[§bF§9] §fPick Up.") ; Pickup Message
+    )) (set-var "AppendList" ((var "groundItems")(var "groundItem")))
+    (set-var "CreateList" ((var "groundItem")
+        (text "pawn") ; Item ID
+        (loc 195.5 156.2 157.5 0 0) ; Location
+        (text "§9[§bF§9] §fPick Up.") ; Pickup Message
+    )) (set-var "AppendList" ((var "groundItems")(var "groundItem")))
+    (set-var "CreateList" ((var "groundItem")
+        (text "theList") ; Item ID
+        (loc 214.5 156.2 184.5 0 0) ; Location
+        (text "§9[§bF§9] §fPick Up.") ; Pickup Message
+    )) (set-var "AppendList" ((var "groundItems")(var "groundItem")))
+    (set-var "CreateList" ((var "groundItem")
+        (text "queen") ; Item ID
+        (loc 73.5 179.2 101.5 0 0) ; Location
+        (text "§9[§bF§9] §fPick Up.") ; Pickup Message
+    )) (set-var "AppendList" ((var "groundItems")(var "groundItem")))
+    (set-var "CreateList" ((var "groundItem")
+        (text "feather") ; Item ID
+        (loc 209.5 174.2 111.5 0 0) ; Location
+        (text "§9[§bF§9] §fPick Up.") ; Pickup Message
+    )) (set-var "AppendList" ((var "groundItems")(var "groundItem")))
+    (set-var "CreateList" ((var "groundItem")
+        (text "handgun") ; Item ID
+        (loc 279.5 65.2 107.5 0 0) ; Location
+        (text "§9[§bF§9] §fPick Up.") ; Pickup Message
+    )) (set-var "AppendList" ((var "groundItems")(var "groundItem")))
+    (set-var "CreateList" ((var "groundItem")
+        (text "labPass") ; Item ID
+        (loc 232.5 65.2 52.5 0 0) ; Location
+        (text "§9[§bF§9] §fPick Up.") ; Pickup Message
+    )) (set-var "AppendList" ((var "groundItems")(var "groundItem")))
 ))
+
