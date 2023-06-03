@@ -362,3 +362,9 @@
     )) (set-var "AppendList" ((var "groundItems")(var "groundItem")))
 ))
 
+(player-event "Join" (
+    (if-var "VarExists" not ((save "%uuid playerTime")) (
+        (set-var "=" ((save "%uuid playerTime")(num 86399)))
+        (set-var "CreateList" ((save "%uuid items")))
+    ))
+))
